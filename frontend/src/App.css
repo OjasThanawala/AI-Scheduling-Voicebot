@@ -1,0 +1,94 @@
+body, h1, h2, button, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.timeslot-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.timeslot-details {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+h2 {
+  margin-bottom: 20px; /* Adds space below headers */
+}
+
+.label {
+  margin-right: 5px; /* Adds space to the right of text labels */
+  margin-left: 5px;
+}
+
+.removeButton {
+  margin-left: 50px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Use the full height of the viewport */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.center-container button {
+    margin-top: 20px; /* Optional: Adds some space between the header and the button */
+}

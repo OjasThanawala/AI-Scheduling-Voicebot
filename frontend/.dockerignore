@@ -1,0 +1,9 @@
+node_modules
+build
+.npm
+.npmrc
+.git
+.gitignore
+.dockerignore
+Dockerfile
+README.md
