@@ -32,7 +32,7 @@ This app can be built and run using Docker.
   
     - Note that you would need to need create a role which has access to the Google Speech and TextToSpeech APIs (can be found here: https://cloud.google.com/speech-to-text/docs/before-you-begin)
   - Otherwise, contact the repository admin to acquire the necessary JSON file.
-  - Place this file in the root directory of the repository.
+  - Place this file in the /backend directory of the repository.
   - Record the file path (e.g., "./gc-account-key.json") and add it to the .env file next to the GOOGLE_APPLICATION_CREDENTIALS key.
 
 ## Running the App
